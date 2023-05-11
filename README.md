@@ -51,9 +51,13 @@ The accuracy for this model is very low, and it fails for most of the cases.
 
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/UtilRes/check.png?raw=true)
 
-#### Approach 4
+### Approach 4
 
 This is a bit computationally expensive approach but very high at accuracy. Here we segment the target objects to exactly get the location and then segment the words as
 well.
 
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/UtilRes/segmetn.png?raw=true)
+
+## Future Scope
+
+Bounding boxes can be determined for the target product then points can be determined from the image and passed to a SAM model to get the accurate segmentations, this way the products where multiple objects are present are also handled. Segmentation ensures higher accuracy for intersection of the product and the text.
