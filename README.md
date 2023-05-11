@@ -34,9 +34,12 @@ Trained custom YOLO model for target prediction. (Normal YOLO model will not con
 Some examples for the same are:
 
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/4_Overlap.png?raw=true)
-!{IMG}(https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/7_Overlap.png?raw=true)
+
+![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/7_Overlap.png?raw=true)
+
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/5_NoOverlap.png?raw=true)
-!{IMG}(https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/6_Overlap.png?raw=true)
+
+![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/6_Overlap.png?raw=true)
 
 **This approach turns out to be the best computationally as well as accuracy. We detect all the test images correctlly with this approach.**
 
