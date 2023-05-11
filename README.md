@@ -3,6 +3,9 @@
 Text Overlap Detection  To classify whether a creative has image and text overlap or not. Given an input creative (combination of image and text), 
 it should be able to tell if the text infringes upon the image and makes a poor creative.
 
+Model results can be viewed here: [Model Results](https://github.com/Hrushi11/TextOverlapDetection/tree/main/Plot%20Curves)
+All predictions made by the model can be viewed here: [Predicitons](https://github.com/Hrushi11/TextOverlapDetection/tree/main/Results)
+
 The creatives may contain an overlapping of text in an image. Some of the examples for the same are shown here.
 
 ![img](https://github.com/Hrushi11/TextOverlapDetection/blob/main/Images/1_Overlap.png?raw=true)
