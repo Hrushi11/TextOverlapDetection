@@ -19,12 +19,12 @@ This can be checked with computer vision techniques. Here we discuss 4 approache
 ### Approach 1
 
 Simple object Detection for the target product and the text in the image. The bounding box generated for each of them will be checked if they intersect with each other, 
-if yes it will be termed as `Overlapping`, if not then, 'No Overlapping'.
+if yes it will be termed as `Overlapping`, if not then, `No Overlapping`.
 
-**Problem:** In this case the bounding box are critical, if the text does not overlaps but the bounding box does, then still it is classified as an `Overlapping`. Hence
+**Problem:** In this case the bounding box is critical, if the text does not overlaps but the bounding box does, then still it is classified as an `Overlapping`. Hence
 generating False Positives.
 
-For example here in this case, the text is not overlapping but the bounding box is.
+For example, here in this case, the text is not overlapping but the bounding box is.
 
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/UtilRes/boundW.png?raw=true)
 
@@ -45,7 +45,7 @@ Some examples for the same are:
 
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/Results/6_Overlap.png?raw=true)
 
-**This approach turns out to be the best computationally as well as accuracy. We detect all the test images correctlly with this approach.**
+**This approach turns out to be the best computationally as well as accuracy wise. We detect all the test images correctlly with this approach.**
 
 ### Approach 3
 
@@ -57,8 +57,7 @@ The accuracy for this model is very low, and it fails for most of the cases.
 
 ### Approach 4
 
-This is a bit computationally expensive approach but very high at accuracy. Here we segment the target objects to exactly get the location and then segment the words as
-well.
+This is a bit computationally expensive approach but very high at accuracy. Here we segment the target objects to exactly get the location of target and then segment the words as well.
 
 ![IMG](https://github.com/Hrushi11/TextOverlapDetection/blob/main/UtilRes/segmetn.png?raw=true)
 
